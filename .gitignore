@@ -3,5 +3,5 @@ Results
 
 *.pyc
 database.json
-minecraft.mp4
+source/*.mp4
 config.toml
