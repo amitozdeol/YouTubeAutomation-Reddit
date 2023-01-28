@@ -10,14 +10,16 @@ from VideoEditor.videomaker import make_final_video
 import math
 import subprocess
 import time
+import sys
 
 
 
 def main():
+    old_thread=sys.argv[1] if len(sys.argv)>1 else None
     my_config = config.load_config()
     my_reddit = reddit.login()
     thread = reddit.get_thread(reddit=my_reddit,
-                               subreddit=my_config['Reddit']['subreddit'])
+                               subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
 
     if thread is None:
         print('No thread found!')
@@ -92,11 +94,11 @@ def main():
                      title_image_path=title_image_path,
                      comments_image_path=comments_image_path,
                      length=math.ceil(total_video_duration),
-                     reddit_id=thread.id
+                     reddit_id=thread.id+thread_title
                      )
 
     if my_config['App']['upload_to_youtube']:
-        upload_file = f'./Results/{thread.id}.mp4'
+        upload_file = f'./Results/{thread.id+thread_title}.mp4'
         directory_path = my_config['Directory']['path']
         cmd = ['python', f'{directory_path}/Youtube/upload.py', '--file', upload_file, '--title',
                f'{thread_title}', '--description', f'{thread_title}']

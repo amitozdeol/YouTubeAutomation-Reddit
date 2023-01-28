@@ -24,9 +24,9 @@ region_name='eu-central-1'
 # ----------------------------------------------------------
 [Reddit]
 # the subredit for which reddit posts are taken
-subreddit='AskReddit'
+subreddit=''
 # number of top comments
-topn_comments=10
+topn_comments=7
 # ----------------------------------------------------------
 [VideoSetup]
 # the total duration of the final video in seconds

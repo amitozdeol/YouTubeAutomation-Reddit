@@ -25,7 +25,7 @@ def login():
         return e
 
 
-def get_thread(reddit:Reddit, subreddit:str):
+def get_thread(reddit:Reddit, subreddit:str, oldThread=None):
 
     subreddit_ = reddit.subreddit(subreddit)
 
@@ -40,7 +40,11 @@ def get_thread(reddit:Reddit, subreddit:str):
     # get the top most up-voted thread that is not in the database
     db = database.load_databse()
     for thread in sorted_threads:
-        if not db.search(submission.id == str(thread.id)):
+        if oldThread and oldThread == str(thread.id):
+            chosen_thread = thread
+            print(f"Chosen thread: {thread.title} -- Score: {thread.score}")
+            break
+        elif not db.search(submission.id == str(thread.id)):
             db.insert({'id': thread.id, 'time': time.time()})
             db.close()
             print(f"Chosen thread: {thread.title} -- Score: {thread.score}")
@@ -61,7 +65,10 @@ def get_comments(thread):
             break
         if isinstance(top_level_comment, MoreComments):
             continue
-        comments.append(top_level_comment)
+        isSure = input(f'{top_level_comment.body} (y/n): ').lower().strip() == 'y'
+        if isSure:
+            comments.append(top_level_comment)
+        # comments.append(top_level_comment)
 
     chosen_comments = comments
     print(f"{len(chosen_comments)} comments are chosen")
