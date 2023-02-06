@@ -1,13 +1,4 @@
-import os
-import re
 import multiprocessing
-from os.path import exists
-from typing import Tuple, Any, Final
-
-import shutil
-from typing import Tuple, Any
-from PIL import Image
-
 from moviepy.audio.AudioClip import concatenate_audioclips, CompositeAudioClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 from moviepy.video.VideoClip import ImageClip
@@ -32,9 +23,7 @@ def prepare_background(reddit_id,length,W, H):
     video.close()
 
     vid_resized = resize(vid, height=H)
-    clip = (
-        vid_resized
-    )
+    clip = (vid_resized)
     # calculate the center of the background clip
     c = clip.w // 2
 
@@ -45,15 +34,7 @@ def prepare_background(reddit_id,length,W, H):
 
     return crop(clip, x1=x1, y1=0, x2=x2, y2=H)
 
-def make_final_video(
-    title_audio_path,
-    comments_audio_path,
-    title_image_path,
-    comments_image_path,
-    length: int,
-    reddit_id,
-
-):
+def make_final_video(title_audio_path,comments_audio_path,title_image_path,comments_image_path,length: int,reddit_id):
     # settings values
     W = 1080
     H = 1920
@@ -62,25 +43,16 @@ def make_final_video(
     print("Creating the final video 🎥")
     background_clip = prepare_background(reddit_id, length,W,H)
 
-
-
     # Gather all audio clips
-    audio_clips = [
-        AudioFileClip(i)
-        for i in comments_audio_path
-    ]
-
+    audio_clips = [AudioFileClip(i)for i in comments_audio_path]
     audio_clips.insert(0, AudioFileClip(title_audio_path))
     audio_concat = concatenate_audioclips(audio_clips)
-
     audio_composite = CompositeAudioClip([audio_concat])
-
     print(f"Video Will Be: {length} Seconds Long")
 
     # add title to video
     image_clips = []
     # Gather all images
-
     new_opacity = 1 if opacity is None or float(opacity) >= 1 else float(opacity)
 
     screenshot_width = int((W * 90) // 100)

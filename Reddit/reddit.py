@@ -45,7 +45,7 @@ def get_thread(reddit:Reddit, subreddit:str, oldThread=None):
             print(f"Chosen thread: {thread.title} -- Score: {thread.score}")
             break
         elif not db.search(submission.id == str(thread.id)):
-            db.insert({'id': thread.id, 'time': time.time()})
+            db.insert({'id': thread.id, 'title': thread.title, 'time': time.time()})
             db.close()
             print(f"Chosen thread: {thread.title} -- Score: {thread.score}")
             chosen_thread = thread
@@ -61,6 +61,7 @@ def get_comments(thread):
     chosen_comments = None
     comments = []
     for top_level_comment in thread.comments:
+        print("===================================")
         if len(comments) == topn:
             break
         if isinstance(top_level_comment, MoreComments):

@@ -18,8 +18,7 @@ def main():
     old_thread=sys.argv[1] if len(sys.argv)>1 else None
     my_config = config.load_config()
     my_reddit = reddit.login()
-    thread = reddit.get_thread(reddit=my_reddit,
-                               subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
+    thread = reddit.get_thread(reddit=my_reddit,subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
 
     if thread is None:
         print('No thread found!')
@@ -30,11 +29,11 @@ def main():
         print('No comments found!')
         return
 
+    # Create a temp folder to store screenshots and mp3
     Path(f"./Assets/temp").mkdir(parents=True, exist_ok=True)
     thread_id_path = f"./Assets/temp/{thread.id}"
 
-    # download screenshot of reddit post and its comments
-    get_screenshots_of_reddit_posts(reddit_thread=thread, reddit_comments=comments, screenshot_num=1)
+    get_screenshots_of_reddit_posts(reddit_thread=thread, reddit_comments=comments)
 
     # create a mp3 directory for the tts files
     Path(f"{thread_id_path}/mp3").mkdir(parents=True, exist_ok=True)
@@ -58,8 +57,7 @@ def main():
     current_video_duration = 0
 
     tts_title_path = f'{thread_id_path}/mp3/title.mp3'
-    title_duration = get_length(path=tts_title_path)
-    current_video_duration += title_duration + pause
+    current_video_duration += get_length(path=tts_title_path) + pause
 
     list_of_number_of_comments = list(range(len(comments)))
 
@@ -89,13 +87,12 @@ def main():
         add_pause(input_path, output_path, mp3_pause)
 
     # create final video
-    make_final_video(title_audio_path=title_audio_clean_path,
-                     comments_audio_path=comments_audio_clean_path,
-                     title_image_path=title_image_path,
-                     comments_image_path=comments_image_path,
-                     length=math.ceil(total_video_duration),
-                     reddit_id=thread.id+thread_title
-                     )
+    make_final_video(title_audio_clean_path,
+    comments_audio_clean_path,
+    title_image_path,
+    comments_image_path,
+    math.ceil(total_video_duration),
+    thread.id+thread_title)
 
     if my_config['App']['upload_to_youtube']:
         upload_file = f'./Results/{thread.id+thread_title}.mp4'
