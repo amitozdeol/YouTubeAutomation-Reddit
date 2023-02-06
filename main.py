@@ -1,30 +1,32 @@
 
-from Reddit import reddit
-from Graphics.screenshot import get_screenshots_of_reddit_posts
 import config
-from TextToSpeech.tts import create_tts, get_length
+from reddit import login, get_thread, get_comments, get_screenshots_of_reddit_posts
+from tts import create_tts, get_length
 from pathlib import Path
 from utils.clean_text import markdown_to_text
 from utils.add_mp3_pause import add_pause
-from VideoEditor.videomaker import make_final_video
+from videomaker import make_final_video
 import math
 import subprocess
 import time
 import sys
 
 
-
+# 1. Login to reddit and get the thread and comments
+# 2. Create screenshot of reddit posts
+# 3. Create mp3 files of the thread title and comments
+# 4. Create the final video
 def main():
     old_thread=sys.argv[1] if len(sys.argv)>1 else None
     my_config = config.load_config()
-    my_reddit = reddit.login()
-    thread = reddit.get_thread(reddit=my_reddit,subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
+    my_reddit = login()
+    thread = get_thread(reddit=my_reddit,subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
 
     if thread is None:
         print('No thread found!')
         return
 
-    comments = reddit.get_comments(thread=thread)
+    comments = get_comments(thread=thread)
     if comments is None:
         print('No comments found!')
         return

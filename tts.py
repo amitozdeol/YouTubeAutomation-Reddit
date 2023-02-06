@@ -7,6 +7,7 @@ from mutagen.mp3 import MP3
 import config
 import random
 
+# Use Amazon Polly to convert text to speech
 def creat_session():
     my_config = config.load_config()
     session = Session(aws_access_key_id=my_config['AmazonAWSCredential']['aws_access_key_id'],
@@ -14,6 +15,7 @@ def creat_session():
                       region_name=my_config['AmazonAWSCredential']['region_name']
                       )
     return session
+
 def create_tts(text, path):
     my_config = config.load_config()
     session = creat_session()

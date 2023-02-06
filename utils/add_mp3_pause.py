@@ -1,4 +1,4 @@
-from TextToSpeech.tts import get_length
+from tts import get_length
 from pydub import AudioSegment
 
 
