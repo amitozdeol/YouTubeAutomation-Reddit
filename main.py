@@ -1,4 +1,3 @@
-
 import config
 from reddit import Reddit
 from tts import create_tts, get_length

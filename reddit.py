@@ -18,7 +18,6 @@ import sys
 
 submission = Query()
 
-# Convert this file to a class
 class Reddit:
     reddit = None
     thread = None
@@ -89,6 +88,7 @@ class Reddit:
             #     comments.append(top_level_comment)
 
             comments.append(top_level_comment)
+            time.sleep(0.1)
             print(top_level_comment.body)
 
         self.comments = comments

@@ -1,4 +1,5 @@
 import multiprocessing
+from os import listdir
 from moviepy.audio.AudioClip import concatenate_audioclips, CompositeAudioClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 from moviepy.video.VideoClip import ImageClip
@@ -15,7 +16,9 @@ import config
 def prepare_background(reddit_id,length,W, H):
     my_config = config.load_config()
 
-    video = VideoFileClip(my_config['Background']['path']).without_audio()
+    background_path = my_config['Background']['path']
+    files = [f for f in listdir(background_path) if f.endswith('.mp4')]
+    video = VideoFileClip(f'{background_path}{files[random.randint(0, len(files)-1)]}').without_audio()
     vide_duration = video.duration
 
     random_start = random.randint(0, int(vide_duration))
