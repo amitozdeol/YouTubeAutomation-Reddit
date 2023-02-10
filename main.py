@@ -1,6 +1,6 @@
 
 import config
-from reddit import login, get_thread, get_comments, get_screenshots_of_reddit_posts
+from reddit import Reddit
 from tts import create_tts, get_length
 from pathlib import Path
 from utils.clean_text import markdown_to_text
@@ -17,39 +17,21 @@ import sys
 # 3. Create mp3 files of the thread title and comments
 # 4. Create the final video
 def main():
-    old_thread=sys.argv[1] if len(sys.argv)>1 else None
-    my_config = config.load_config()
-    my_reddit = login()
-    thread = get_thread(reddit=my_reddit,subreddit=my_config['Reddit']['subreddit'], oldThread=old_thread)
-
-    if thread is None:
-        print('No thread found!')
-        return
-
-    comments = get_comments(thread=thread)
-    if comments is None:
-        print('No comments found!')
-        return
-
-    # Create a temp folder to store screenshots and mp3
-    Path(f"./Assets/temp").mkdir(parents=True, exist_ok=True)
-    thread_id_path = f"./Assets/temp/{thread.id}"
-
-    get_screenshots_of_reddit_posts(reddit_thread=thread, reddit_comments=comments)
+    reddit = Reddit(sys.argv[1] if len(sys.argv)>1 else None)
 
     # create a mp3 directory for the tts files
-    Path(f"{thread_id_path}/mp3").mkdir(parents=True, exist_ok=True)
-    Path(f"{thread_id_path}/mp3_clean").mkdir(parents=True, exist_ok=True)
+    Path(f"./Assets/temp/{reddit.thread.id}/mp3").mkdir(parents=True, exist_ok=True)
+    Path(f"./Assets/temp/{reddit.thread.id}/mp3_clean").mkdir(parents=True, exist_ok=True)
     print("Getting mp3 files..")
 
     # download tts files
-    thread_title = markdown_to_text(thread.title)
-    title_audio_path = f'{thread_id_path}/mp3/title.mp3'
-    title_audio_clean_path = f'{thread_id_path}/mp3_clean/title.mp3'
+    thread_title = markdown_to_text(reddit.thread.title)
+    title_audio_path = f'./Assets/temp/{reddit.thread.id}/mp3/title.mp3'
+    title_audio_clean_path = f'./Assets/temp/{reddit.thread.id}/mp3_clean/title.mp3'
     create_tts(text=thread_title, path=title_audio_path)
 
-    for idx, comment in enumerate(comments):
-        path = f"{thread_id_path}/mp3/{idx}.mp3"
+    for idx, comment in enumerate(reddit.comments):
+        path = f"./Assets/temp/{reddit.thread.id}/mp3/{idx}.mp3"
         comment_body = markdown_to_text(comment.body)
         create_tts(text=comment_body, path=path)
 
@@ -58,18 +40,18 @@ def main():
     pause = my_config['VideoSetup']['pause']
     current_video_duration = 0
 
-    tts_title_path = f'{thread_id_path}/mp3/title.mp3'
+    tts_title_path = f'./Assets/temp/{reddit.thread.id}/mp3/title.mp3'
     current_video_duration += get_length(path=tts_title_path) + pause
 
-    list_of_number_of_comments = list(range(len(comments)))
+    list_of_number_of_comments = list(range(len(reddit.comments)))
 
     comments_audio_path = []
     comments_audio_clean_path = []
     comments_image_path = []
     for i in list_of_number_of_comments:
-        comment_audio_path = f'{thread_id_path}/mp3/{i}.mp3'
-        comment_audio_clean_path = f'{thread_id_path}/mp3_clean/{i}.mp3'
-        comment_image_path = f'{thread_id_path}/png/{i}.png'
+        comment_audio_path = f'./Assets/temp/{reddit.thread.id}/mp3/{i}.mp3'
+        comment_audio_clean_path = f'./Assets/temp/{reddit.thread.id}/mp3_clean/{i}.mp3'
+        comment_image_path = f'./Assets/temp/{reddit.thread.id}/png/{i}.png'
         comment_duration = get_length(comment_audio_path)
 
         if current_video_duration + comment_duration + pause <= total_video_duration:
@@ -78,7 +60,7 @@ def main():
             comments_image_path.append(comment_image_path)
             current_video_duration += comment_duration + pause
 
-    title_image_path = f'{thread_id_path}/png/title.png'
+    title_image_path = f'./Assets/temp/{reddit.thread.id}/png/title.png'
 
     # convert the pause(in seconds) into milliseconds
     mp3_pause = pause * 1000
@@ -90,11 +72,11 @@ def main():
 
     # create final video
     make_final_video(title_audio_clean_path,
-    comments_audio_clean_path,
-    title_image_path,
-    comments_image_path,
-    math.ceil(total_video_duration),
-    thread.id+thread_title)
+        comments_audio_clean_path,
+        title_image_path,
+        comments_image_path,
+        math.ceil(total_video_duration),
+        reddit.thread.id+thread_title)
 
     if my_config['App']['upload_to_youtube']:
         upload_file = f'./Results/{thread.id+thread_title}.mp4'
@@ -111,5 +93,3 @@ if __name__ == '__main__':
         main()
         print('\n-------------------------------------------\n')
         time.sleep(my_config['App']['run_every'])
-
-
