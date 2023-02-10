@@ -2,8 +2,7 @@ import config
 from reddit import Reddit
 from tts import create_tts, get_length
 from pathlib import Path
-from utils.clean_text import markdown_to_text
-from utils.add_mp3_pause import add_pause
+from util import add_pause, markdown_to_text
 from videomaker import make_final_video
 import math
 import subprocess
@@ -17,7 +16,7 @@ import sys
 # 4. Create the final video
 def main():
     reddit = Reddit(sys.argv[1] if len(sys.argv)>1 else None)
-
+    
     # create a mp3 directory for the tts files
     Path(f"./Assets/temp/{reddit.thread.id}/mp3").mkdir(parents=True, exist_ok=True)
     Path(f"./Assets/temp/{reddit.thread.id}/mp3_clean").mkdir(parents=True, exist_ok=True)
@@ -75,7 +74,7 @@ def main():
         title_image_path,
         comments_image_path,
         math.ceil(total_video_duration),
-        reddit.thread.id+thread_title)
+        f'{reddit.thread.id} {thread_title}')
 
     if my_config['App']['upload_to_youtube']:
         upload_file = f'./Results/{thread.id+thread_title}.mp4'

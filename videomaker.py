@@ -11,9 +11,11 @@ from moviepy.video.fx.resize import resize
 from moviepy.video.fx.crop import crop
 import random
 import time
+
+import requests
 import config
 
-def prepare_background(reddit_id,length,W, H):
+def prepare_background(length,W, H):
     my_config = config.load_config()
 
     background_path = my_config['Background']['path']
@@ -37,14 +39,30 @@ def prepare_background(reddit_id,length,W, H):
 
     return crop(clip, x1=x1, y1=0, x2=x2, y2=H)
 
-def make_final_video(title_audio_path,comments_audio_path,title_image_path,comments_image_path,length: int,reddit_id):
+# Get all the trending hashtags
+def get_hastags():
+    print("Getting Hastags 📈")
+    response = requests.get("https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list?period=7&page=1&limit=10&sort_by=popular", 
+                    headers={"anonymous-user-id": "48ef160890fb48ddae1b53f1b662ccaa"})
+    hashtags = []
+    try:
+        if response.status_code == 200:
+            json = response.json()   
+            for item in json['data']['list']:
+                hashtags.append(item['hashtag_name'])
+    except:
+        print("Failed to get hashtags")
+    
+    return hashtags
+
+def make_final_video(title_audio_path,comments_audio_path,title_image_path,comments_image_path,length: int,filename):
     # settings values
     W = 1080
     H = 1920
     opacity = 0.95
 
     print("Creating the final video 🎥")
-    background_clip = prepare_background(reddit_id, length,W,H)
+    background_clip = prepare_background(length,W,H)
 
     # Gather all audio clips
     audio_clips = [AudioFileClip(i)for i in comments_audio_path]
@@ -80,10 +98,16 @@ def make_final_video(title_audio_path,comments_audio_path,title_image_path,comme
     final = CompositeVideoClip([background_clip, image_concat.set_position("center")])
     image_concat.close()
 
-    subreddit = reddit_id
+    hashtags = get_hastags()
+    filename+=f' #fyp'
+    #loop through hashtags and add them to the video
+    for idx, hashtag in enumerate(hashtags):
+        isSure = input(f'{hashtag} (y/n): ').lower().strip() == 'y'
+        if isSure:
+            filename+=f' #{hashtag}'
 
     final.write_videofile(
-        f"./Results/{subreddit}.mp4",
+        f"./Results/{filename}.mp4",
         fps=int(24),
         audio_codec="aac",
         audio_bitrate="192k",
