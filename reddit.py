@@ -1,20 +1,19 @@
 # Login to reddit 
 # Get top comments
-import praw
-from praw.reddit import Reddit
+from pathlib import Path
 from praw.models import MoreComments
+from praw.reddit import Reddit
+from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 from tinydb import Query
-
-import time
-import re
 import config
 import database
-from pathlib import Path
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import NoSuchElementException
+import praw
+import re
 import sys
+import time
 
 submission = Query()
 
@@ -81,7 +80,7 @@ class Reddit:
 
             if len(comments) == topn:
                 break
-            if isinstance(top_level_comment, MoreComments) or top_level_comment.author=="AutoModerator" or c_lower in "[deleted]" or c_lower in "[removed]" or c_lower in "edit:" or len(c_lower) > 800 or c_lower in "askreddit" or c_lower in "http": 
+            if isinstance(top_level_comment, MoreComments) or top_level_comment.author=="AutoModerator" or c_lower in "[deleted]" or c_lower in "[removed]" or c_lower in "edit:" or len(c_lower) > 800 or c_lower in "askreddit" or c_lower in "thread" or c_lower in "http": 
                 continue
             # isSure = input(f'{top_level_comment.body} (y/n): ').lower().strip() == 'y'
             # if isSure:

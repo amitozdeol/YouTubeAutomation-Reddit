@@ -42,7 +42,7 @@ def prepare_background(length,W, H):
 # Get all the trending hashtags
 def get_hastags():
     print("Getting Hastags 📈")
-    response = requests.get("https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list?period=7&page=1&limit=10&sort_by=popular", 
+    response = requests.get("https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list?period=30&page=1&limit=30&sort_by=popular", 
                     headers={"anonymous-user-id": "48ef160890fb48ddae1b53f1b662ccaa"})
     hashtags = []
     try:
@@ -55,7 +55,7 @@ def get_hastags():
     
     return hashtags
 
-def make_final_video(title_audio_path,comments_audio_path,title_image_path,comments_image_path,length: int,filename):
+def make_final_video(audio_paths,image_paths,length: int,filename):
     # settings values
     W = 1080
     H = 1920
@@ -65,8 +65,7 @@ def make_final_video(title_audio_path,comments_audio_path,title_image_path,comme
     background_clip = prepare_background(length,W,H)
 
     # Gather all audio clips
-    audio_clips = [AudioFileClip(i)for i in comments_audio_path]
-    audio_clips.insert(0, AudioFileClip(title_audio_path))
+    audio_clips = [AudioFileClip(i)for i in audio_paths]
     audio_concat = concatenate_audioclips(audio_clips)
     audio_composite = CompositeAudioClip([audio_concat])
     print(f"Video Will Be: {length} Seconds Long")
@@ -78,15 +77,8 @@ def make_final_video(title_audio_path,comments_audio_path,title_image_path,comme
 
     screenshot_width = int((W * 90) // 100)
 
-    title = ImageClip(title_image_path).set_duration(audio_clips[0].duration).set_opacity(new_opacity).set_position("center")
-    resized_title = resize(title, width=screenshot_width)
-    image_clips.insert(
-        0,
-        resized_title,
-    )
-
-    for idx, i in enumerate(comments_image_path):
-        comment = ImageClip(i).set_duration(audio_clips[idx + 1].duration).set_opacity(new_opacity).set_position("center")
+    for idx, i in enumerate(image_paths):
+        comment = ImageClip(i).set_duration(audio_clips[idx].duration).set_opacity(new_opacity).set_position("center")
         resized_comment = resize(comment, width=screenshot_width)
         image_clips.append(
             resized_comment
