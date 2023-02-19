@@ -1,0 +1,83 @@
+1676410717279	geckodriver	INFO	Listening on 127.0.0.1:64839
+1676410717608	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64840" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileH29kno"
+2023-02-14 16:38:44.031 firefox-bin[23575:7171328] Unable to install helper!
+WebDriver BiDi listening on ws://127.0.0.1:64840
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64840/devtools/browser/e27e0048-eadb-4992-8827-c84d2a64bf16
+1676410734256	geckodriver	INFO	Listening on 127.0.0.1:64908
+1676410734761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64909" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileTkhG3c"
+1676410735244	Marionette	INFO	Marionette enabled
+1676410735456	Marionette	INFO	Listening on port 64916
+Read port: 64916
+WebDriver BiDi listening on ws://127.0.0.1:64909
+1676410735590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileTkhG3c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64909/devtools/browser/0b313402-8218-4372-b0a1-99b157b05dbc
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCf1VGGAQAAX76Uh-G6DLv7x8aOCJiMgBZe3ok9uWtKqclq26ZeL5jsOQlE&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_6f9jllu%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 6614 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1676410891411	geckodriver	INFO	Listening on 127.0.0.1:65038
+1676410891920	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65039" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileETj2MY"
+1676410892425	Marionette	INFO	Marionette enabled
+1676410892628	Marionette	INFO	Listening on port 65046
+Read port: 65046
+WebDriver BiDi listening on ws://127.0.0.1:65039
+1676410892745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileETj2MY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65039/devtools/browser/58e75cf6-5cd8-4c52-92e9-037a30168d42
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCf1VGGAQAAX76Uh-G6DLv7x8aOCJiMgBZe3ok9uWtKqclq26ZeL5jsOQlE&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_cbqfrf0%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1676410936259	geckodriver	INFO	Listening on 127.0.0.1:65147
+1676410936770	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65148" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilet7Am1s"
+1676410937286	Marionette	INFO	Marionette enabled
+1676410937497	Marionette	INFO	Listening on port 65155
+WebDriver BiDi listening on ws://127.0.0.1:65148
+Read port: 65155
+1676410937726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilet7Am1s/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65148/devtools/browser/fcd0da24-8dcc-4af2-84ca-59e9b71dc922
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCf1VGGAQAAX76Uh-G6DLv7x8aOCJiMgBZe3ok9uWtKqclq26ZeL5jsOQlE&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_2f4qmyg6%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 680 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 701))
+1676410974781	Marionette	INFO	Stopped listening on port 64916
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1676410976806	Marionette	INFO	Stopped listening on port 65046
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676410978652	Marionette	INFO	Stopped listening on port 65155
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676410990304	geckodriver	INFO	Listening on 127.0.0.1:65271
+1676410990818	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65272" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilejdBfUU"
+1676410991286	Marionette	INFO	Marionette enabled
+1676410991484	Marionette	INFO	Listening on port 65279
+Read port: 65279
+WebDriver BiDi listening on ws://127.0.0.1:65272
+1676410991603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilejdBfUU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65272/devtools/browser/4ca52391-a843-494c-94f9-4ee0c7907c03
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCf1VGGAQAAX76Uh-G6DLv7x8aOCJiMgBZe3ok9uWtKqclq26ZeL5jsOQlE&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_32iqhosp%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 2795 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_32iqhosp%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 7584 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1676411153216	Marionette	INFO	Stopped listening on port 65279

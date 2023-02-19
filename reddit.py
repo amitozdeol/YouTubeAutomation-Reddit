@@ -29,7 +29,6 @@ class Reddit:
         self.login()
         self.get_thread(oldThread)
         self.get_comments()
-        self.get_screenshots()
 
     # Login to reddit 
     def login(self):

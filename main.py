@@ -1,8 +1,9 @@
 from pathlib import Path
 from reddit import Reddit
+from tiktok import TikTok
 from tts import TTS
 from util import markdown_to_text
-from videomaker import make_final_video
+from videomaker import VideoMaker
 import config
 import math
 import subprocess
@@ -14,7 +15,12 @@ import time
 # 3. Create mp3 files of the thread title and comments
 # 4. Create the final video
 def main():
+    # tiktok = TikTok()
+    # sys.exit(0)
     reddit = Reddit(sys.argv[1] if len(sys.argv)>1 else None)
+    video = VideoMaker()
+    video.get_hastags()
+    reddit.get_screenshots()
     tts = TTS(reddit)
     title_audio_path = f'./Assets/temp/{reddit.thread.id}/mp3/title.mp3'
     tts.create_tts(reddit.thread.title, title_audio_path)
@@ -31,7 +37,7 @@ def main():
             break
 
     # create final video
-    make_final_video(audio_paths, image_paths, math.ceil(tts.video_duration), f'{reddit.thread.id} {markdown_to_text(reddit.thread.title)}')
+    video.make_final_video(audio_paths, image_paths, math.ceil(tts.video_duration), f'{reddit.thread.id} {markdown_to_text(reddit.thread.title)}')
 
     if my_config['App']['upload_to_youtube']:
         upload_file = f'./Results/{thread.id+thread_title}.mp4'
