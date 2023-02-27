@@ -49,8 +49,8 @@ def main():
 
 if __name__ == '__main__':
     my_config = config.load_config()
-    while True:
-        print('Starting ..........\n')
-        main()
-        print('\n-------------------------------------------\n')
-        time.sleep(my_config['App']['run_every'])
+    # while True:
+    print('Starting ..........\n')
+    main()
+        # print('\n-------------------------------------------\n')
+        # time.sleep(my_config['App']['run_every'])

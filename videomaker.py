@@ -100,7 +100,7 @@ class VideoMaker:
         image_concat = concatenate_videoclips(image_clips,)  # note transition kwarg for delay in imgs
         image_concat.audio = audio_composite
         audio_composite.close()
-        final = CompositeVideoClip([background_clip, image_concat.set_position("center")])
+        final = CompositeVideoClip([background_clip, image_concat.set_position(('center',0.3), relative=True) ])
         image_concat.close()
 
         filename+=f' #fyp {self.hashtags}'

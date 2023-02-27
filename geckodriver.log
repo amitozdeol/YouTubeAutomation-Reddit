@@ -81,3 +81,1095 @@ JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/w
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
 JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_32iqhosp%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 7584 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1676411153216	Marionette	INFO	Stopped listening on port 65279
+1676952367355	geckodriver	INFO	Listening on 127.0.0.1:53362
+1676952391424	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53363" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileo0fVw8"
+1676952392352	Marionette	INFO	Marionette enabled
+1676952392469	Marionette	INFO	Listening on port 53373
+WebDriver BiDi listening on ws://127.0.0.1:53363
+Read port: 53373
+1676952392838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53363/devtools/browser/ee2ff463-7f76-4d45-839c-b3b61256d434
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 6519: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.4725ee6.min.js?cacheKey=gantry-1676947648, line 181: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADWIHKGAQAAXSIJ2X460MtoVQ2RN2l98mabDDQEpu8SKKbBjgmubVclZSNc&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADWIHKGAQAAXSIJ2X460MtoVQ2RN2l98mabDDQEpu8SKKbBjgmubVclZSNc&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 6519: unreachable code after return statement
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.4725ee6.min.js?cacheKey=gantry-1676947648, line 181: unreachable code after return statement
+1676952434684	geckodriver	INFO	Listening on 127.0.0.1:53705
+JavaScript error: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1676952460248	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53706" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileQLihsy"
+1676952460985	Marionette	INFO	Marionette enabled
+1676952461090	Marionette	INFO	Listening on port 53731
+Read port: 53731
+WebDriver BiDi listening on ws://127.0.0.1:53706
+1676952461339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53706/devtools/browser/2ffa5227-6cae-4cb9-8b1d-221b8e186b20
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 6519: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.4725ee6.min.js?cacheKey=gantry-1676947648, line 181: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AADWIHKGAQAAXSIJ2X460MtoVQ2RN2l98mabDDQEpu8SKKbBjgmubVclZSNc&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.38/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1676952471713	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?platform=google&client_id=1096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com&response_type=token&redirect_uri=https%3A%2F%2Fwww.tiktok.com%2Flogin%2F&state=%7B%22client_id%22%3A%221096011445005-sdea0nf5jvj14eia93icpttv27cidkvk.apps.googleusercontent.com%22%2C%22network%22%3A%22google%22%2C%22display%22%3A%22popup%22%2C%22callback%22%3A%22_hellojs_28kwsy0r%22%2C%22state%22%3A%22%22%2C%22redirect_uri%22%3A%22https%3A%2F%2Fwww.tiktok.com%2Flogin%2F%22%2C%22scope%22%3A%22basic%22%7D&scope=openid%20profile&prompt=consent line 2 > eval line 4660 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Extension error: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: moz-extension://97f1a8d2-a368-48ae-9f4d-1d17a1ca990f/content/notificationBar.js :: collectIfNeededWithTimeout :: line 169"  data: no] undefined 169
+[[Exception stack
+collectIfNeededWithTimeout@moz-extension://97f1a8d2-a368-48ae-9f4d-1d17a1ca990f/content/notificationBar.js:169:41
+@moz-extension://97f1a8d2-a368-48ae-9f4d-1d17a1ca990f/content/notificationBar.js:70:13
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:610:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/webapp/login/webapp-login-page/npm-d801507b.c4604b18609172d13553.js line 2 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 6519: unreachable code after return statement
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.4725ee6.min.js?cacheKey=gantry-1676947648, line 181: unreachable code after return statement
+JavaScript error: https://discord.com/assets/9b81675a6bb9ea4d97aa.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+1676953087068	Marionette	INFO	Stopped listening on port 53731
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+1676953088908	Marionette	INFO	Stopped listening on port 53373
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676953089659	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1677010409625	geckodriver	INFO	Listening on 127.0.0.1:57024
+1677253625447	geckodriver	INFO	Listening on 127.0.0.1:63265
+1677253649052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63266" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilezX81CF"
+1677253649899	Marionette	INFO	Marionette enabled
+1677253650050	Marionette	INFO	Listening on port 63276
+Read port: 63276
+WebDriver BiDi listening on ws://127.0.0.1:63266
+1677253650297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63266/devtools/browser/a117e5fe-9b82-4fb6-a03c-8524f31a1d41
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 6581: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677245853, line 181: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677253661215	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCgC4SGAQAAXJwo_Wo_goZju3JL28mdRDnaxfNTotyddCVV-udgpOLAjAoj&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilezX81CF/thumbnails) because it does not exist
+1677253682989	Marionette	INFO	Stopped listening on port 63276
+1677253689075	geckodriver	INFO	Listening on 127.0.0.1:63572
+1677253711206	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63573" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileykR0Sn"
+1677253712054	Marionette	INFO	Marionette enabled
+1677253712170	Marionette	INFO	Listening on port 63584
+Read port: 63584
+WebDriver BiDi listening on ws://127.0.0.1:63573
+1677253712424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63573/devtools/browser/fffeac0d-c288-4542-8a77-628ad27ca5fb
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677245853, line 181: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 6581: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677253719046	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AMCgC4SGAQAAXJwo_Wo_goZju3JL28mdRDnaxfNTotyddCVV-udgpOLAjAoj&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileykR0Sn/thumbnails) because it does not exist
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 68: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi-client.js, line 230: InvalidStateError: An exception was thrown
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+Exception trying to format object for log message: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.js:230:21) JS Stack trace: _processResponse/<@resource.js:230:21
+get@sys.mjs:54:51
+format@sys.mjs:640:19
+formatText@sys.mjs:569:44
+format@sys.mjs:587:12
+append@sys.mjs:680:37
+append@logmanager.js:149:44
+log@sys.mjs:377:16
+debug@sys.mjs:397:10
+observe@policies.js:882:21
+observe@observers.js:133:21
+notify@observers.js:85:18
+notify@util.js:194:19
+WrappedNotify@util.js:204:17
+1677261821990	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+JavaScript error: https://discord.com/assets/45eb806cdd178e4f93a2.js, line 1850: Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+1677270732116	Marionette	INFO	Stopped listening on port 63584
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677270732876	geckodriver	INFO	Listening on 127.0.0.1:64622
+1677270757017	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64623" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileFQz1YM"
+1677270757810	Marionette	INFO	Marionette enabled
+1677270757923	Marionette	INFO	Listening on port 64685
+Read port: 64685
+WebDriver BiDi listening on ws://127.0.0.1:64623
+1677270758110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64623/devtools/browser/03f21807-f367-4fb8-b70b-aa90d3512adb
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 6602: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+1677270766502	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AEBJHoWGAQAAfS8RDw44B-moF9hY5doj_kFV89H6WQfrNrA9fJQS0rf4SfSU&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileFQz1YM/thumbnails) because it does not exist
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'
+1677271046335	geckodriver	INFO	Listening on 127.0.0.1:65065
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 68: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi-client.js, line 230: InvalidStateError: An exception was thrown
+1677271069779	Marionette	INFO	Stopped listening on port 64685
+console.error: "Error sending event: scrollable-change"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/event-collector.js", 276))
+TypeError: can't access dead object: getDOMListeners/<@resource://devtools/server/actors/inspector/event-collector.js:276:22
+getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:274:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:332:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:225:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:797:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:425:33
+form@resource://devtools/server/actors/inspector/node.js:240:7
+write@resource://devtools/shared/protocol/types.js:368:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:218:33
+write@resource://devtools/shared/protocol/types.js:218:16
+write@resource://devtools/shared/protocol/Request.js:112:22
+write@resource://devtools/shared/protocol/Request.js:42:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:599:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:313:12
+notify@resource://gre/modules/Timer.sys.mjs:49:17
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677271071052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65066" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileA7bt7H"
+1677271071671	Marionette	INFO	Marionette enabled
+1677271071770	Marionette	INFO	Listening on port 65076
+Read port: 65076
+WebDriver BiDi listening on ws://127.0.0.1:65066
+1677271071949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65066/devtools/browser/a9e16000-4a77-41ee-9182-13a193a1ea8d
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 6602: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_UNEXPECTED
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_UNEXPECTED
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_UNEXPECTED
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_UNEXPECTED
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677271078717	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AEBJHoWGAQAAfS8RDw44B-moF9hY5doj_kFV89H6WQfrNrA9fJQS0rf4SfSU&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileA7bt7H/thumbnails) because it does not exist
+1677271113892	Marionette	INFO	Stopped listening on port 65076
+1677271115808	geckodriver	INFO	Listening on 127.0.0.1:65414
+1677271137179	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65415" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofile0qvcZo"
+1677271137935	Marionette	INFO	Marionette enabled
+1677271138047	Marionette	INFO	Listening on port 65435
+Read port: 65435
+WebDriver BiDi listening on ws://127.0.0.1:65415
+1677271138236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65415/devtools/browser/2703635b-474d-4e78-9d34-44637ba33238
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 6602: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677271147312	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AEBJHoWGAQAAfS8RDw44B-moF9hY5doj_kFV89H6WQfrNrA9fJQS0rf4SfSU&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofile0qvcZo/thumbnails) because it does not exist
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 71"  data: no] undefined 71
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:71:12
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:538:36
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:77:9
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:538:36
+]]
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+1677271300736	geckodriver	INFO	Listening on 127.0.0.1:49452
+1677271322652	geckodriver	INFO	Listening on 127.0.0.1:49466
+1677271338614	geckodriver	INFO	Listening on 127.0.0.1:49476
+1677271365606	geckodriver	INFO	Listening on 127.0.0.1:49487
+1677271389211	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49488" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileDSZhu0"
+1677271389956	Marionette	INFO	Marionette enabled
+1677271390038	Marionette	INFO	Listening on port 49504
+Read port: 49504
+WebDriver BiDi listening on ws://127.0.0.1:49488
+1677271390242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49488/devtools/browser/ec104779-1dc6-4c61-8cd5-ff1fb6e32ecf
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 6602: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: https://discord.com/assets/b4954fc7fc1e88785d57.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677271396460	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AEBJHoWGAQAAfS8RDw44B-moF9hY5doj_kFV89H6WQfrNrA9fJQS0rf4SfSU&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileDSZhu0/thumbnails) because it does not exist
+1677271421714	Marionette	INFO	Stopped listening on port 49504
+1677271426754	Marionette	INFO	Stopped listening on port 65435
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=13e6e0800"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677271464345	geckodriver	INFO	Listening on 127.0.0.1:49888
+1677271464853	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49889" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilecONwW9"
+1677271465268	Marionette	INFO	Marionette enabled
+1677271465363	Marionette	INFO	Listening on port 49897
+Read port: 49897
+WebDriver BiDi listening on ws://127.0.0.1:49889
+1677271465551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilecONwW9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49889/devtools/browser/68841a53-3aec-4772-bef7-56ccf7b0763a
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AEBJHoWGAQAAfS8RDw44B-moF9hY5doj_kFV89H6WQfrNrA9fJQS0rf4SfSU&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677271472144	Marionette	INFO	Stopped listening on port 49897
+1677271477791	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1677272431619	geckodriver	INFO	Listening on 127.0.0.1:50070
+1677272453785	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50071" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilehlbXpS"
+1677272454589	Marionette	INFO	Marionette enabled
+1677272454695	Marionette	INFO	Listening on port 50080
+Read port: 50080
+WebDriver BiDi listening on ws://127.0.0.1:50071
+1677272454880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50071/devtools/browser/5c222927-13c2-4acb-a338-da024254c1ad
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://discord.com/assets/327cd334aa7b76a49d17.js, line 6601: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: https://discord.com/assets/327cd334aa7b76a49d17.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677272465230	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/779be241ca9d436d7ffd7347da454efb00a8b039.4efb3100309820a09dcb.js, line 1: TypeError: r is undefined
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/tiktok/web/node/_next/static/chunks/captcha.2a92cbca747e0ea7d78a.js line 46 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDAOYWGAQAAgWRMsAt4G640cH7eKJX_6mzKtL61sog7V5cngnScLdj-RmcS&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/ies/creator_center/common/vendor.2dc5f322.js line 249 > Function, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofilehlbXpS/thumbnails) because it does not exist
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:517:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://d89600b0-9cf9-4077-b592-558b202356e5/js/lib/iframe.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi.js'
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:343:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:712:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:343:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDAOYWGAQAAgWRMsAt4G640cH7eKJX_6mzKtL61sog7V5cngnScLdj-RmcS&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/inspector/event-collector.js, line 276: TypeError: can't access dead object
+1677272735002	Marionette	INFO	Stopped listening on port 50080
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677272747325	geckodriver	INFO	Listening on 127.0.0.1:50515
+1677272768897	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50516" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileXG49EL"
+1677272769661	Marionette	INFO	Marionette enabled
+1677272769776	Marionette	INFO	Listening on port 50528
+Read port: 50528
+WebDriver BiDi listening on ws://127.0.0.1:50516
+1677272769955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50516/devtools/browser/c939a07d-8e96-46f7-ac45-c8a97de2b099
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/327cd334aa7b76a49d17.js, line 6601: unreachable code after return statement
+JavaScript error: https://discord.com/assets/327cd334aa7b76a49d17.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 170: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677266856, line 181: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 68: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi-client.js, line 230: InvalidStateError: An exception was thrown
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDAOYWGAQAAgWRMsAt4G640cH7eKJX_6mzKtL61sog7V5cngnScLdj-RmcS&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677272776546	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.12/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.40/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileXG49EL/thumbnails) because it does not exist
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+Port.onMessage event fired while context is inactive.
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 68: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: moz-extension://c8b75a88-b0f1-45ef-919e-b5dc6bcca498/js/vapi-client.js, line 230: InvalidStateError: An exception was thrown
+1677273082994	geckodriver	INFO	Listening on 127.0.0.1:50972
+1677273106900	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50973" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileUPnJAS"
+1677273107555	Marionette	INFO	Marionette enabled
+1677273107651	Marionette	INFO	Listening on port 50985
+Read port: 50985
+WebDriver BiDi listening on ws://127.0.0.1:50973
+1677273107900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50973/devtools/browser/7f692e13-917d-4e7f-b092-95d6260e5096
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://discord.com/assets/327cd334aa7b76a49d17.js, line 6601: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript warning: https://a.slack-edge.com/bv1-10/gantry-vendors.8bfe227.min.js?cacheKey=gantry-1677269248, line 181: unreachable code after return statement
+JavaScript error: https://discord.com/assets/327cd334aa7b76a49d17.js, line 103: Error: Cannot find module './notosans-400-normalitalic.woff2'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: unreachable code after return statement
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.tiktok.com/8NBb6ebC-/2hJ-fCOuA/8G7ahGNcpaY3Di/VGB1VA/WHs0/UBB5Nhg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript warning: https://s20.tiktokcdn.com/tiktok/common/init.js?seed=AIDAOYWGAQAAgWRMsAt4G640cH7eKJX_6mzKtL61sog7V5cngnScLdj-RmcS&hTc6j8Njvn--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 625: TypeError: context.contentWindow is null
+1677273117099	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.bba8089e75056ba87ffe.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/var/folders/y2/4v4tqd455xnghmk81h9jyyfh0000gn/T/rust_mozprofileUPnJAS/thumbnails) because it does not exist
+console.error: "Unable to find target with innerWindowId:21474836481"
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 495: TypeError: window is null
+JavaScript error: moz-extension://e08ef62b-3e03-49e4-b81c-919b55000ea1/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+1677273234779	Marionette	INFO	Stopped listening on port 50985
+1677273237186	Marionette	INFO	Stopped listening on port 50528
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
