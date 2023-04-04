@@ -100,7 +100,9 @@ class VideoMaker:
         image_concat = concatenate_videoclips(image_clips,)  # note transition kwarg for delay in imgs
         image_concat.audio = audio_composite
         audio_composite.close()
-        final = CompositeVideoClip([background_clip, image_concat.set_position(('center',0.3), relative=True) ])
+        # add a follow me image to the final video from source/follow.png 
+        follow = ImageClip('./source/follow.png').set_duration(length).set_position((0.6, 0.7), relative=True)
+        final = CompositeVideoClip([background_clip, follow, image_concat.set_position (('center',0.3), relative=True) ])
         image_concat.close()
 
         filename+=f' #fyp {self.hashtags}'
