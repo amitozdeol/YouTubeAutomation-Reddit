@@ -137,7 +137,7 @@ class Reddit:
         Path(f"./Assets/temp/{reddit_id}/png").mkdir(parents=True, exist_ok=True)
 
         print("Launching Headless Browser...")
-        driver = webdriver.Chrome('chromedriver_mac64/chromedriver')
+        driver = webdriver.Chrome('chromedriver_mac64/chromedriver', options=options)
         driver.get("https://www.reddit.com" + self.thread.permalink) 
         print("Visiting Reddit...")
         driver.set_window_size(width=W, height=H)
@@ -145,7 +145,6 @@ class Reddit:
         driver.add_cookie({"name": "eu_cookie", "value": "{%22opted%22:true%2C%22nonessential%22:false}", "domain": ".reddit.com","path": "/"})
 
         time.sleep(5)
-        # driver.save_screenshot(f"./Assets/temp/17502s4/png/full.png")
         postcontentpath = f"./Assets/temp/{reddit_id}/png/title.png"
         try:
             # For NSFW content
@@ -167,7 +166,7 @@ class Reddit:
             print(f"Screenshotting comment {idx+1}...")
             time.sleep(5)
             try:
-                driver.find_element(By.ID, f"t1_{comment.id}").screenshot(
+                driver.find_element(By.ID, f"t1_{comment.id}-comment-rtjson-content").screenshot(
                     filename=f"./Assets/temp/{reddit_id}/png/{idx}.png"
                 )
             except TimeoutError:
@@ -181,7 +180,6 @@ class Reddit:
 
 
     def get_screenshots_using_playwright(self, theme="light"):
-
         # settings values
         W = 1080
         H = 1920
@@ -222,13 +220,16 @@ class Reddit:
             # Get the thread screenshot
             page = context.new_page()
             # go to reddit's login page
+            print("Visiting Reddit...")
             page.goto("https://www.reddit.com/login/?experiment_d2x_2020ify_buttons=enabled&use_accountmanager=true&experiment_d2x_google_sso_gis_parity=enabled&experiment_d2x_onboarding=enabled&experiment_d2x_am_modal_design_update=enabled", timeout=0)
             # fill user info
-            page.locator("id=loginUsername").fill("allofthe_colors")
-            page.locator("id=loginPassword").fill("yERtD7EG5#")
+            print("Logging in...")
+            page.locator("id=loginUsername").fill(self.config['RedditCredential']['client_id'])
+            page.locator("id=loginPassword").fill(self.config['RedditCredential']['client_secret'])
             page.get_by_role("button", name="Log In").click()
             time.sleep(10)
             # go to the thread
+            print("Visiting thread...")
             page.goto("https://www.reddit.com" + self.thread.permalink, timeout=0)
             time.sleep(10)
             page.keyboard.press("Escape")
@@ -237,17 +238,22 @@ class Reddit:
             page.set_viewport_size(ViewportSize(width=W, height=H))
 
             postcontentpath = f"./Assets/temp/{reddit_id}/png/title.png"
-            page.locator(f'[data-test-id="post-content"]').screenshot(path=postcontentpath)
+            page.locator('shreddit-post').screenshot(path=postcontentpath)
             print("Screenshot for OP completed")
 
+            #zoom in on comments
+            page.set_viewport_size(ViewportSize(width=500, height=H))
             for idx, comment in enumerate(self.comments):
                 if page.locator('[data-testid="content-gate"]').is_visible():
+                    print("Content gate found. Clicking...")
                     page.locator('[data-testid="content-gate"] button').click()
-
+                print(f"Screenshotting comment {idx + 1}  {comment.permalink} ...")
                 page.goto(f'https://reddit.com{comment.permalink}', timeout=0)
-
                 try:
-                    page.locator(f"#t1_{comment.id}").screenshot(
+                    # page.locator("shreddit-comment").first.screenshot(
+                    #     path=f"./Assets/temp/{reddit_id}/png/{idx}.png"
+                    # )
+                    page.locator(f"#t1_{comment.id}-comment-rtjson-content").screenshot(
                         path=f"./Assets/temp/{reddit_id}/png/{idx}.png"
                     )
                     print(f"Screenshot for {idx + 1} comment out of {len(self.comments)}")

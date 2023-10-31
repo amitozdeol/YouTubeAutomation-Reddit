@@ -89,7 +89,7 @@ class VideoMaker:
         image_clips = []
         # Gather all images
         new_opacity = 1 if opacity is None or float(opacity) >= 1 else float(opacity)
-        screenshot_width = int((W * 90) // 100)
+        screenshot_width = int((W * 98) // 100)
         for idx, i in enumerate(image_paths):
             comment = ImageClip(i).set_duration(audio_clips[idx].duration).set_opacity(new_opacity).set_position("center")
             resized_comment = resize(comment, width=screenshot_width)
