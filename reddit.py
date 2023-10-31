@@ -14,6 +14,9 @@ import praw
 import re
 import sys
 import time
+from playwright.async_api import async_playwright  # pylint: disable=unused-import
+from playwright.sync_api import ViewportSize, sync_playwright
+import json
 
 submission = Query()
 
@@ -36,6 +39,27 @@ class Reddit:
             self.reddit = praw.Reddit(client_id=self.config['RedditCredential']['client_id'],
                                  client_secret=self.config['RedditCredential']['client_secret'],
                                  user_agent=self.config['RedditCredential']['user_agent'])
+            # from time import sleep
+            # from selenium import webdriver
+            # from selenium.webdriver.common.by import By
+            # options = Options()
+            # options.add_argument('--headless')
+            # options.add_argument('--no-sandbox')
+            # options.add_argument('--disable-dev-shm-usage')
+            # options.add_argument('--force-dark-mode')
+            # driver = webdriver.Chrome('chromedriver_mac64/chromedriver', options=options)
+            # driver.get("https://www.reddit.com/login")
+            # user = driver.find_element(By.ID, "loginUsername")
+            # user.send_keys("allofthe_colors")
+            # pwd = driver.find_element(By.ID, "loginPassword")
+            # pwd.send_keys("yERtD7EG5#")
+            # btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
+            # btn.click()
+            # sleep(5)
+            # cookie = driver.find_element(By.XPATH, '//button[text()="Accept all"]')
+            # cookie.click()  # kill cookie agreement popup. Probably not needed now
+            # sleep(5)
+
             print(f"Logged in to Reddit successfully!")
         except Exception as e:
             return e
@@ -113,35 +137,37 @@ class Reddit:
         Path(f"./Assets/temp/{reddit_id}/png").mkdir(parents=True, exist_ok=True)
 
         print("Launching Headless Browser...")
-        driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', options=options)
-        driver.get("https://www.reddit.com" + self.thread.permalink)
+        driver = webdriver.Chrome('chromedriver_mac64/chromedriver')
+        driver.get("https://www.reddit.com" + self.thread.permalink) 
         print("Visiting Reddit...")
         driver.set_window_size(width=W, height=H)
         driver.add_cookie({"name": "USER","value": "eyJwcmVmcyI6eyJ0b3BDb250ZW50RGlzbWlzc2FsVGltZSI6MCwiZ2xvYmFsVGhlbWUiOiJSRURESVQiLCJuaWdodG1vZGUiOnRydWUsImNvbGxhcHNlZFRyYXlTZWN0aW9ucyI6eyJmYXZvcml0ZXMiOmZhbHNlLCJtdWx0aXMiOmZhbHNlLCJtb2RlcmF0aW5nIjpmYWxzZSwic3Vic2NyaXB0aW9ucyI6ZmFsc2UsInByb2ZpbGVzIjpmYWxzZX0sInRvcENvbnRlbnRUaW1lc0Rpc21pc3NlZCI6MH19","domain": ".reddit.com", "path": "/"})
         driver.add_cookie({"name": "eu_cookie", "value": "{%22opted%22:true%2C%22nonessential%22:false}", "domain": ".reddit.com","path": "/"})
 
         time.sleep(5)
+        # driver.save_screenshot(f"./Assets/temp/17502s4/png/full.png")
         postcontentpath = f"./Assets/temp/{reddit_id}/png/title.png"
         try:
             # For NSFW content
             print("Checking for NSFW content...")
-            button = driver.find_element(By.XPATH,'//button[text()="I\'m over 18"]')
+            button = driver.find_element(By.ID,'secondary-button')
             time.sleep(5)
             if button.is_displayed():
                 button.click()
                 print("Button clicked. I\'m over 18")
+                time.sleep(5)
         except NoSuchElementException:
             print("No NSFW content found")
-        
-        driver.find_element(By.CSS_SELECTOR, '[data-test-id="post-content"]').screenshot(filename=postcontentpath)
+        driver.find_element(By.CSS_SELECTOR, 'shreddit-post').screenshot(filename=postcontentpath)
         print("Finding title...")
 
         for idx, comment in enumerate(self.comments):
-            driver.get(f'https://reddit.com{comment.permalink}')
+            driver.get(f'https://reddit.com/comments/{self.thread.id}/comment/{comment.id}')
+            print(f'https://reddit.com/comments/{self.thread.id}/comment/{comment.id}')
             print(f"Screenshotting comment {idx+1}...")
-
+            time.sleep(5)
             try:
-                driver.find_element(By.CSS_SELECTOR, f"#t1_{comment.id}").screenshot(
+                driver.find_element(By.ID, f"t1_{comment.id}").screenshot(
                     filename=f"./Assets/temp/{reddit_id}/png/{idx}.png"
                 )
             except TimeoutError:
@@ -150,5 +176,86 @@ class Reddit:
 
         # close browser instance when we are done using it
         driver.close()
+
+        print("Screenshots downloaded Successfully.")
+
+
+    def get_screenshots_using_playwright(self, theme="light"):
+
+        # settings values
+        W = 1080
+        H = 1920
+
+        reddit_id = re.sub(r"[^\w\s-]", "", self.thread.id)
+        # ! Make sure the reddit screenshots folder exists
+        Path(f"./Assets/temp/{reddit_id}/png").mkdir(parents=True, exist_ok=True)
+
+        screenshot_num: int
+        with sync_playwright() as p:
+            print("Launching Headless Browser...")
+
+            browser = p.chromium.launch(headless=True)  # headless=False #to check for chrome view
+            context = browser.new_context()
+            my_config = config.load_config()
+            # Device scale factor (or dsf for short) allows us to increase the resolution of the screenshots
+            # When the dsf is 1, the width of the screenshot is 600 pixels
+            # So we need a dsf such that the width of the screenshot is greater than the final resolution of the video
+            dsf = (W // 600) + 1
+
+            context = browser.new_context(
+                locale="en-us",
+                color_scheme="dark",
+                viewport=ViewportSize(width=W, height=H),
+                device_scale_factor=dsf,
+            )
+            # set the theme and disable non-essential cookies
+            if theme == "dark":
+                cookie_file = open(
+                    "./Graphics/data/cookie-dark-mode.json", encoding="utf-8"
+                )
+                bgcolor = (33, 33, 36, 255)
+                txtcolor = (240, 240, 240)
+                cookies = json.load(cookie_file)
+                cookie_file.close()
+                context.add_cookies(cookies)  # load preference cookies
+
+            # Get the thread screenshot
+            page = context.new_page()
+            # go to reddit's login page
+            page.goto("https://www.reddit.com/login/?experiment_d2x_2020ify_buttons=enabled&use_accountmanager=true&experiment_d2x_google_sso_gis_parity=enabled&experiment_d2x_onboarding=enabled&experiment_d2x_am_modal_design_update=enabled", timeout=0)
+            # fill user info
+            page.locator("id=loginUsername").fill("allofthe_colors")
+            page.locator("id=loginPassword").fill("yERtD7EG5#")
+            page.get_by_role("button", name="Log In").click()
+            time.sleep(10)
+            # go to the thread
+            page.goto("https://www.reddit.com" + self.thread.permalink, timeout=0)
+            time.sleep(10)
+            page.keyboard.press("Escape")
+            
+            page.goto("https://www.reddit.com" + self.thread.permalink, timeout=0)
+            page.set_viewport_size(ViewportSize(width=W, height=H))
+
+            postcontentpath = f"./Assets/temp/{reddit_id}/png/title.png"
+            page.locator(f'[data-test-id="post-content"]').screenshot(path=postcontentpath)
+            print("Screenshot for OP completed")
+
+            for idx, comment in enumerate(self.comments):
+                if page.locator('[data-testid="content-gate"]').is_visible():
+                    page.locator('[data-testid="content-gate"] button').click()
+
+                page.goto(f'https://reddit.com{comment.permalink}', timeout=0)
+
+                try:
+                    page.locator(f"#t1_{comment.id}").screenshot(
+                        path=f"./Assets/temp/{reddit_id}/png/{idx}.png"
+                    )
+                    print(f"Screenshot for {idx + 1} comment out of {len(self.comments)}")
+                except TimeoutError:
+                    print("TimeoutError: Skipping screenshot...")
+                    continue
+
+            # close browser instance when we are done using it
+            browser.close()
 
         print("Screenshots downloaded Successfully.")

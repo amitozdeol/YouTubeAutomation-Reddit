@@ -26,7 +26,7 @@ def main():
     reddit = Reddit(args.title_id)
     video = VideoMaker()
     # video.get_hastags()
-    reddit.get_screenshots()
+    reddit.get_screenshots_using_playwright(theme="light")
     thread_id = reddit.thread.id
     thread_title = reddit.thread.title
     thread_title_clean = markdown_to_text(thread_title) if not args.no_name else None 
